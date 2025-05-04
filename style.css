@@ -10,12 +10,13 @@
 
   body {
     font-family: Arial, sans-serif;
+    padding-top: 10px;
   }
 
 /*nav-section*/
 
 .nav-section {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -46,6 +47,13 @@
   font-weight: bold;
 }
 
+.nav-item a:hover{
+  background-color: #ccc;
+  padding: 6px 8px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+}
 .nav-logo img{
   height: 40px;
 }
